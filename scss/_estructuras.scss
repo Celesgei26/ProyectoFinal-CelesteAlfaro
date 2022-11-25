@@ -1,0 +1,100 @@
+$colorNav: #D7E7BD;
+$colorFooter: #928c6f;
+$colorTitulo: #d3fad6;
+$colorTitulos2: #edeba0;
+$colorTitulos3:#E8F7D9;
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Montserrat, sans-serif;
+    overflow-x: hidden;
+}
+/*ENCABEZADO*/
+header {
+    
+    .numero-header{
+        font-family: Spartan;
+    } 
+    
+}
+.contacto-header{
+    background-color: $colorNav ;
+}
+nav{
+    .barra-movimiento:hover{
+        color: black;
+        background-color: $colorFooter;
+    }
+    .letra-holder{
+        font-family: Montserrat;
+    }       
+} 
+#menu{
+    background-color:$colorNav ;
+        a{
+            font-size: 1.5rem;
+            font-family: Spartan;
+            color: black;
+        }
+}
+/*FIN ENCABEZADO*/
+
+footer{
+    background-color: $colorFooter;
+    .iconos i{
+        font-size: 3rem;
+        padding: 0 35px;
+        color: black;
+        text-decoration: none;
+    }
+}
+
+.titulos{
+    
+    font-family: roboto;
+    font-weight: bold;
+}
+.titulo1{
+    @extend .titulos;
+    background-color: $colorTitulos2;
+
+
+}
+.titulo2{
+    @extend .titulos;
+    background-color: $colorTitulos3 ;
+}
+
+/*MEDIA CELULAR*/
+@media only screen and (max-width: 380px) {
+    iframe{ width: 100%;}
+    .sobreMi{
+        width: 110%;
+        height: 100%;
+    }
+    .pedido-antici{
+        font-size: 1rem;
+    }
+    .fotos-tablet{
+        display: none;
+    }
+    .foto-oreo{
+        width: 90%;
+       
+    }
+    .grid-responsive{
+        width: 100%;
+    }
+    .fechas-celular{
+        font-size: 5%;
+    }
+}
+/*MEDIA TABLET*/
+@media only screen and ( max-width:768px){
+    iframe{ width: 100%;}
+}
+
+
+

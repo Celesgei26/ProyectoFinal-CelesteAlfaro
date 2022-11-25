@@ -1,0 +1,63 @@
+
+div{
+    .mi-emprendimiento{
+        font-family: Montserrat;
+    }
+    h1{
+    font-family:Spartan;
+    font-size: 3rem;
+    text-align: center;
+    transition: height 2s;
+    }
+}
+div{
+    .carousel-inner{
+        max-height: 50rem;
+    }
+}
+
+section{
+    .pedido-antici{
+    font-family: roboto;
+    font-size: 1.3rem;
+    font-weight: bold;
+    }
+    h2{
+        background-color: $colorTitulos2;
+        font-family: roboto;
+        font-weight: bold;
+    }
+    
+}
+
+.novedades{
+    background-color:#D3F0B9;
+    font-size: 200%;
+}
+.f-especiales{
+    font-weight: bolder;
+    font-family: Spartan;
+    background-color: #D0E4BE; 
+}
+.news{
+    font-family: Spartan;
+    text-align: center;
+    font-size: 150%;
+}
+
+.fechas-importantes{
+    font-family: Roboto;
+    font-size: 300%;
+    text-align: center;
+
+}
+.color-filas{
+    background-color: #D0EAB8; 
+    font-family: Roboto;
+    font-size: 150%;
+    font-weight: bolder;
+}
+#fotos-home{
+    border: 5px solid $colorFooter;
+    width: 70%;
+}

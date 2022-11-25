@@ -1,0 +1,38 @@
+
+section{
+    .biografia-pilar{
+      font-family: Spartan;
+      font-weight: bold;
+    } 
+}
+  .oreo-titulo{
+    background-color: $colorTitulos3;
+    font-family: Spartan;
+    text-align: center;
+    font-size: 30px;
+  }
+.foto-oreo{
+  width: 80%;
+}
+.sobre-mi{
+  width: 100%;
+}
+  .receta{
+    background-color: #E1F4CF; 
+    font-family: Roboto;
+    font-size: 120%;
+    font-weight: bolder;
+  }
+
+ 
+   .titulo-receta{
+    font-size: 120%;
+  }
+  #foto-sobremi{
+    border: 5px solid #d1efb5;
+  }
+
+  #foto-oreo{
+    border: 5px solid white;
+  }
+ 

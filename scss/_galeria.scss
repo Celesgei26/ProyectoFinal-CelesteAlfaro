@@ -1,0 +1,12 @@
+/*galeria*/
+#galeria .col-lg-4{
+    margin: 0;
+    padding: 25px;
+}
+#galeria img{
+    width: 100%;
+
+}
+#galeria img:hover{
+    border: 5px solid $colorFooter;
+}

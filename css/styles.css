@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: Montserrat, sans-serif;
+  overflow-x: hidden; }
+
+/*ENCABEZADO*/
+header .numero-header {
+  font-family: Spartan; }
+
+.contacto-header {
+  background-color: #d1bde7; }
+
+nav .barra-movimiento:hover {
+  color: black;
+  background-color: #916f92ad; }
+
+nav .letra-holder {
+  font-family: Montserrat; }
+
+#menu {
+  background-color: #D7E7BD; }
+  #menu a {
+    font-size: 1.5rem;
+    font-family: Spartan;
+    color: black; }
+
+/*FIN ENCABEZADO*/
+footer {
+  background-color:  #d1bde7; }
+  footer .iconos i {
+    font-size: 3rem;
+    padding: 0 35px;
+    color: rgba(0, 0, 0, 0.719);
+    text-decoration: none; }
+
+.titulos, .titulo1, .titulo2 {
+  font-family: roboto;
+  font-weight: bold; }
+
+.titulo1 {
+  background-color: #dba0ed; }
+
+.titulo2 {
+  background-color: #E8F7D9; }
+
+/*MEDIA CELULAR*/
+@media only screen and (max-width: 380px) {
+  iframe {
+    width: 100%; }
+  .sobreMi {
+    width: 110%;
+    height: 100%; }
+  .pedido-antici {
+    font-size: 1rem; }
+  .fotos-tablet {
+    display: none; }
+  .foto-oreo {
+    width: 90%; }
+  .grid-responsive {
+    width: 100%; }
+  .fechas-celular {
+    font-size: 5%; } }
+
+/*MEDIA TABLET*/
+@media only screen and (max-width: 768px) {
+  iframe {
+    width: 100%; } }
+
+div .mi-emprendimiento {
+  font-family: Montserrat; }
+
+div h1 {
+  font-family: Spartan;
+  font-size: 3rem;
+  text-align: center;
+  transition: height 2s; }
+
+div .carousel-inner {
+  max-height: 50rem; }
+
+section .pedido-antici {
+  font-family: roboto;
+  font-size: 1.3rem;
+  font-weight: bold; }
+
+section h2 {
+  background-color: #edeba0;
+  font-family: roboto;
+  font-weight: bold; }
+
+.novedades {
+  background-color: #D3F0B9;
+  font-size: 200%; }
+
+.f-especiales {
+  font-weight: bolder;
+  font-family: Spartan;
+  background-color: #D0E4BE; }
+
+.news {
+  font-family: Spartan;
+  text-align: center;
+  font-size: 150%; }
+
+.fechas-importantes {
+  font-family: Roboto;
+  font-size: 300%;
+  text-align: center; }
+
+.color-filas {
+  background-color: #D0EAB8;
+  font-family: Roboto;
+  font-size: 150%;
+  font-weight: bolder; }
+
+#fotos-home {
+  border: 5px solid #928c6f;
+  width: 70%; }
+
+section .biografia-pilar {
+  font-family: Spartan;
+  font-weight: bold; }
+
+.oreo-titulo {
+  background-color: #E8F7D9;
+  font-family: Spartan;
+  text-align: center;
+  font-size: 30px; }
+
+.foto-oreo {
+  width: 80%; }
+
+.sobre-mi {
+  width: 100%; }
+
+.receta {
+  background-color: #E1F4CF;
+  font-family: Roboto;
+  font-size: 120%;
+  font-weight: bolder; }
+
+.titulo-receta {
+  font-size: 120%; }
+
+#foto-sobremi {
+  border: 5px solid #d1efb5; }
+
+#foto-oreo {
+  border: 5px solid white; }
+
+section .pedidos {
+  padding: 30px 0px; }
+
+section h1 {
+  font-size: 150%;
+  background-color: #d3fad6;
+  padding: 10px;
+  font-weight: bold; }
+
+div .card {
+  margin: 20px 10px;
+  transition: all 0.25s; }
+
+div .card-text {
+  font-family: Spartan;
+  font-weight: bold; }
+
+h4 {
+  font-family: Roboto;
+  font-weight: bold;
+  text-decoration: underline; }
+
+/*galeria*/
+#galeria .col-lg-4 {
+  margin: 0;
+  padding: 25px; }
+
+#galeria img {
+  width: 100%; }
+
+#galeria img:hover {
+  border: 5px solid #928c6f; }
+
+div #colordeBoton {
+  background-color: #d3fad6;
+  font-family: Montserrat; }
+
+div .hablaConmigo {
+  background-color: #d3fad6;
+  font-family: Montserrat; }
+
+div h3 {
+  font-family: Roboto;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1rem; }
+
+.catering-foto {
+  width: 70%;
+  border: 4px solid #d1efb5; }
+
+iframe {
+  width: 100%; }
+
+div .letra-holder {
+  font-family: Montserrat; }
+
+section ul li {
+  list-style: none; }
+
+#contacto {
+  background-color: #D0EAB8;
+  font-family: Spartan; }
